@@ -5,3 +5,4 @@ SPring Security + JWT
 -> Service Implementations Interfaces Removed -> Direct Services Classes Added
 -> Logger Added with 4 Log Levels (For Debugging)
 -> Lombok Not Removed (Don't need to add lombok Annootations for new Classes , simply generate Getters & Setters)
+-> Enum Roles,Acces Lists Removed, Merged into User Class itself
