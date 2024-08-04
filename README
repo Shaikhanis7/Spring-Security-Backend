@@ -1,4 +1,4 @@
-SPring Security + JWT
+Spring Security + JWT (Don't change exisiting security config unless required ⚠)
 
 
 -> DTO's Removed (only 2 request classes added for Auth)
