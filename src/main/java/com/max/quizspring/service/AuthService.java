@@ -42,8 +42,6 @@ public class AuthService {
                 .name(registerRequest.getName())
                 .email(registerRequest.getEmail())
                 .password(passwordEncoder.encode(registerRequest.getPassword()))
-                .phone(registerRequest.getPhone())
-                .address(registerRequest.getAddress())
                 .role(User.Role.STUDENT)
                 .build();
         userRepository.save(user);
@@ -88,8 +86,6 @@ public class AuthService {
                 .name("Admin")
                 .email("admin@gmail.com")
                 .password(passwordEncoder.encode("Admin@123"))
-                .phone("1234567890")
-                .address("xyz")
                 .role(User.Role.ADMIN)
                 .build();
         userRepository.save(user);

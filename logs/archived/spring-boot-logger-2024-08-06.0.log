@@ -1,0 +1,444 @@
+2024-08-06 05:14:10,758 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Securing GET /swagger-ui/index.html
+2024-08-06 05:14:11,608 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:11,642 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Secured GET /swagger-ui/index.html
+2024-08-06 05:14:12,682 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/index.css
+2024-08-06 05:14:12,702 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:12,708 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/index.css
+2024-08-06 05:14:12,725 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:14:12,741 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:14:12,746 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:14:12,748 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:12,748 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:12,780 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:14:12,783 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:12,786 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:14:12,807 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:14:13,638 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Securing GET /swagger-ui/swagger-ui.css
+2024-08-06 05:14:13,747 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:13,754 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Secured GET /swagger-ui/swagger-ui.css
+2024-08-06 05:14:14,971 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing GET /v3/api-docs/swagger-config
+2024-08-06 05:14:14,971 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:14,971 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured GET /v3/api-docs/swagger-config
+2024-08-06 05:14:15,909 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /v3/api-docs
+2024-08-06 05:14:15,910 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:14:15,913 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /v3/api-docs
+2024-08-06 05:15:22,475 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 19 class path changes (0 additions, 19 deletions, 0 modifications)
+2024-08-06 05:15:27,591 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-7777"]
+2024-08-06 05:15:31,517 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:15:34,381 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-08-06 05:15:34,834 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-08-06 05:15:53,790 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.7 with PID 21364 (C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4\target\classes started by johnb in C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4)
+2024-08-06 05:15:53,800 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-06 05:15:55,201 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06 05:15:55,420 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 221 ms. Found 5 JPA repository interfaces.
+2024-08-06 05:15:55,989 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-06 05:15:55,999 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-06 05:15:56,021 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06 05:15:56,140 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-06 05:15:56,141 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2297 ms
+2024-08-06 05:15:56,355 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06 05:15:56,404 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-06 05:15:56,527 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06 05:15:56,535 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2024-08-06 05:15:56,767 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c1a182
+2024-08-06 05:15:56,767 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2024-08-06 05:15:56,784 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06 05:15:57,356 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06 05:15:57,780 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:15:58,183 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-06 05:15:58,504 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06 05:15:58,911 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-06 05:15:59,608 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-06 05:15:59,809 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-06 05:15:59,867 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 6.377 seconds (process running for 36065.006)
+2024-08-06 05:15:59,905 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-06 05:16:06,544 INFO o.a.j.l.DirectJDKLog [http-nio-7777-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 05:16:06,628 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-06 05:16:06,693 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Completed initialization in 40 ms
+2024-08-06 05:16:06,764 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/index.html
+2024-08-06 05:16:06,786 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:06,789 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/index.html
+2024-08-06 05:16:07,435 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing GET /swagger-ui/swagger-ui.css
+2024-08-06 05:16:07,466 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Securing GET /swagger-ui/index.css
+2024-08-06 05:16:07,469 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:16:07,472 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:16:07,472 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:16:07,477 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:07,479 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:07,479 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Secured GET /swagger-ui/index.css
+2024-08-06 05:16:07,480 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:07,488 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:16:07,486 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:07,525 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured GET /swagger-ui/swagger-ui.css
+2024-08-06 05:16:07,491 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:07,541 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:16:07,542 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:16:08,397 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Securing GET /v3/api-docs/swagger-config
+2024-08-06 05:16:08,400 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:08,404 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Secured GET /v3/api-docs/swagger-config
+2024-08-06 05:16:08,407 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing GET /swagger-ui/favicon-32x32.png
+2024-08-06 05:16:08,437 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:08,471 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured GET /swagger-ui/favicon-32x32.png
+2024-08-06 05:16:08,619 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing GET /v3/api-docs
+2024-08-06 05:16:08,630 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:16:08,646 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured GET /v3/api-docs
+2024-08-06 05:16:10,811 INFO o.s.a.AbstractOpenApiResource [http-nio-7777-exec-7] Init duration for springdoc-openapi is: 2088 ms
+2024-08-06 05:17:51,291 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 45 class path changes (0 additions, 45 deletions, 0 modifications)
+2024-08-06 05:17:59,663 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:18:00,285 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2024-08-06 05:18:01,655 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2024-08-06 05:18:41,560 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.7 with PID 21364 (C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4\target\classes started by johnb in C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4)
+2024-08-06 05:18:41,576 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-06 05:18:42,593 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06 05:18:42,664 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2024-08-06 05:18:43,018 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-06 05:18:43,038 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-06 05:18:43,043 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06 05:18:43,132 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-06 05:18:43,134 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1531 ms
+2024-08-06 05:18:43,277 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06 05:18:43,323 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-06 05:18:43,468 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06 05:18:43,484 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2024-08-06 05:18:44,065 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71f34707
+2024-08-06 05:18:44,069 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2024-08-06 05:18:44,092 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06 05:18:46,393 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06 05:18:47,474 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table applications 
+       add constraint FKscheukp0vov0q7r1ayi0w4k61 
+       foreign key (user_id) 
+       references user (uid)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`h`.`#sql-17d0_90c`, CONSTRAINT `FKscheukp0vov0q7r1ayi0w4k61` FOREIGN KEY (`user_id`) REFERENCES `user` (`uid`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table applications 
+       add constraint FKscheukp0vov0q7r1ayi0w4k61 
+       foreign key (user_id) 
+       references user (uid)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`h`.`#sql-17d0_90c`, CONSTRAINT `FKscheukp0vov0q7r1ayi0w4k61` FOREIGN KEY (`user_id`) REFERENCES `user` (`uid`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:575)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:515)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:447)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:268)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:117)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.max.quizspring.QuizspringApplication.main(QuizspringApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`h`.`#sql-17d0_90c`, CONSTRAINT `FKscheukp0vov0q7r1ayi0w4k61` FOREIGN KEY (`user_id`) REFERENCES `user` (`uid`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 136 common frames omitted
+2024-08-06 05:18:47,872 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:18:48,408 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-06 05:18:48,636 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06 05:18:49,086 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-06 05:18:50,284 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-06 05:18:50,407 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-06 05:18:50,450 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 9.251 seconds (process running for 36235.588)
+2024-08-06 05:18:50,460 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-06 05:20:31,645 INFO o.a.j.l.DirectJDKLog [http-nio-7777-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 05:20:31,703 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-08-06 05:20:31,835 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-2] Completed initialization in 128 ms
+2024-08-06 05:20:31,979 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing DELETE /api/companies/1
+2024-08-06 05:20:32,060 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:20:32,129 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-06 05:20:32,209 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing DELETE /error
+2024-08-06 05:20:32,221 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:20:32,225 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-2] Pre-authenticated entry point called. Rejecting access
+2024-08-06 05:21:56,170 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing POST /api/auth/login
+2024-08-06 05:21:56,179 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:21:56,208 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured POST /api/auth/login
+2024-08-06 05:21:58,670 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-7777-exec-4] Failed to find user 'string@'
+2024-08-06 05:21:58,868 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-06 05:21:58,872 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing POST /error
+2024-08-06 05:21:58,874 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:21:58,875 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-06 05:23:11,664 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-06 05:23:14,251 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-14] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:23:14,634 INFO c.z.h.HikariDataSource [Thread-14] HikariPool-3 - Shutdown initiated...
+2024-08-06 05:23:15,300 INFO c.z.h.HikariDataSource [Thread-14] HikariPool-3 - Shutdown completed.
+2024-08-06 05:23:28,470 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.7 with PID 10572 (C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4\target\classes started by johnb in C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4)
+2024-08-06 05:23:28,476 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-06 05:23:28,730 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-06 05:23:28,730 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-06 05:23:34,775 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06 05:23:35,205 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 379 ms. Found 5 JPA repository interfaces.
+2024-08-06 05:23:38,130 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-06 05:23:38,171 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-7777"]
+2024-08-06 05:23:38,179 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-06 05:23:38,179 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06 05:23:38,367 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-06 05:23:38,374 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9622 ms
+2024-08-06 05:23:38,863 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06 05:23:39,108 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-06 05:23:39,445 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-06 05:23:40,915 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06 05:23:41,111 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-06 05:23:42,854 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43b57153
+2024-08-06 05:23:42,862 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-06 05:23:43,160 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06 05:23:47,479 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06 05:23:49,235 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 05:23:51,688 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-06 05:23:53,801 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06 05:23:55,008 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-06 05:23:56,592 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-06 05:23:56,751 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-7777"]
+2024-08-06 05:23:56,951 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-06 05:23:57,066 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 30.706 seconds (process running for 33.24)
+2024-08-06 05:25:38,319 INFO o.a.j.l.DirectJDKLog [http-nio-7777-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 05:25:38,335 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-06 05:25:38,391 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Completed initialization in 48 ms
+2024-08-06 05:25:38,535 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/index.html
+2024-08-06 05:25:38,587 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:38,600 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/index.html
+2024-08-06 05:25:39,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing GET /swagger-ui/index.css
+2024-08-06 05:25:39,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:25:39,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Securing GET /swagger-ui/swagger-ui.css
+2024-08-06 05:25:39,559 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:25:39,559 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:39,591 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:39,591 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:25:39,599 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:39,607 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:39,607 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-06 05:25:39,615 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-06 05:25:39,615 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:39,615 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-06 05:25:39,615 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured GET /swagger-ui/index.css
+2024-08-06 05:25:39,668 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Secured GET /swagger-ui/swagger-ui.css
+2024-08-06 05:25:40,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing GET /swagger-ui/favicon-32x32.png
+2024-08-06 05:25:40,681 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:40,681 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured GET /swagger-ui/favicon-32x32.png
+2024-08-06 05:25:40,769 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing GET /v3/api-docs/swagger-config
+2024-08-06 05:25:40,777 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:40,777 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured GET /v3/api-docs/swagger-config
+2024-08-06 05:25:41,197 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing GET /v3/api-docs
+2024-08-06 05:25:41,206 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:41,211 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured GET /v3/api-docs
+2024-08-06 05:25:45,111 INFO o.s.a.AbstractOpenApiResource [http-nio-7777-exec-9] Init duration for springdoc-openapi is: 3568 ms
+2024-08-06 05:25:58,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing POST /api/auth/register
+2024-08-06 05:25:58,894 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:25:58,927 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured POST /api/auth/register
+2024-08-06 05:26:07,441 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing POST /api/auth/login
+2024-08-06 05:26:07,441 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-06 05:26:07,497 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured POST /api/auth/login
+2024-08-06 05:26:07,919 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-7777-exec-8] Authenticated user
+2024-08-06 05:26:57,236 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing POST /api/companies
+2024-08-06 05:26:57,894 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured POST /api/companies
+2024-08-06 05:27:39,764 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing POST /api/jobs
+2024-08-06 05:27:39,942 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured POST /api/jobs
+2024-08-06 05:28:05,294 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing POST /applications
+2024-08-06 05:28:05,381 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured POST /applications
+2024-08-06 05:29:41,952 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing DELETE /api/companies/1
+2024-08-06 05:29:42,033 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured DELETE /api/companies/1
+2024-08-06 05:32:33,865 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing POST /api/companies
+2024-08-06 05:32:33,969 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured POST /api/companies
+2024-08-06 05:33:02,342 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing POST /api/jobs
+2024-08-06 05:33:02,422 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured POST /api/jobs
+2024-08-06 05:33:19,601 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing POST /applications
+2024-08-06 05:33:19,693 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured POST /applications
+2024-08-06 05:34:00,898 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing DELETE /api/jobs/2
+2024-08-06 05:34:00,984 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured DELETE /api/jobs/2
+2024-08-06 06:29:12,907 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-06 06:29:14,061 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:14,967 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 06:29:15,782 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2024-08-06 06:29:16,133 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2024-08-06 06:29:20,916 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.7 with PID 10572 (C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4\target\classes started by johnb in C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4)
+2024-08-06 06:29:20,916 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-06 06:29:25,341 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06 06:29:25,654 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 295 ms. Found 5 JPA repository interfaces.
+2024-08-06 06:29:27,390 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-06 06:29:27,406 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:27,437 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-06 06:29:27,437 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06 06:29:27,778 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-06 06:29:27,785 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6829 ms
+2024-08-06 06:29:27,941 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06 06:29:27,957 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-06 06:29:28,022 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06 06:29:28,030 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2024-08-06 06:29:28,193 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3182a23e
+2024-08-06 06:29:28,193 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2024-08-06 06:29:28,201 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06 06:29:28,720 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06 06:29:29,113 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 06:29:29,584 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-06 06:29:29,917 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06 06:29:30,373 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-06 06:29:31,154 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-06 06:29:31,187 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:31,227 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-06 06:29:31,260 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 11.953 seconds (process running for 3967.434)
+2024-08-06 06:29:31,274 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-06 06:29:32,623 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-06 06:29:32,632 INFO o.a.j.l.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:32,714 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 06:29:32,714 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2024-08-06 06:29:32,733 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2024-08-06 06:29:33,001 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.7 with PID 10572 (C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4\target\classes started by johnb in C:\Users\johnb\Desktop\Security-template\Spring-Security-Template-V4)
+2024-08-06 06:29:33,009 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-06 06:29:33,816 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-06 06:29:33,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 95 ms. Found 5 JPA repository interfaces.
+2024-08-06 06:29:34,355 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-06 06:29:34,355 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:34,355 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-06 06:29:34,355 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-06 06:29:34,462 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-06 06:29:34,462 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1432 ms
+2024-08-06 06:29:34,652 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-06 06:29:34,660 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-06 06:29:34,691 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-06 06:29:34,707 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2024-08-06 06:29:34,761 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d60e4d4
+2024-08-06 06:29:34,761 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2024-08-06 06:29:34,777 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-06 06:29:35,313 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-06 06:29:35,731 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 06:29:36,779 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-06 06:29:37,068 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-06 06:29:37,394 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-06 06:29:37,687 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-06 06:29:37,714 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-7777"]
+2024-08-06 06:29:37,726 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-06 06:29:37,774 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 4.88 seconds (process running for 3973.947)
+2024-08-06 06:29:37,774 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2024-08-06 07:14:38,495 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=29m30s880ms608µs300ns).
+2024-08-06 12:46:48,039 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=4h10m1s827ms530µs500ns).
+2024-08-06 21:27:27,060 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h9m55s144ms58µs600ns).
+2024-08-06 21:34:20,727 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-06 21:34:21,004 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2024-08-06 21:34:21,306 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.

@@ -23,11 +23,11 @@ public class SwaggerConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Max Neo Quiz")
+                        .title("Job Searching Website")
                         .description("This is a sample API documentation")
                         .version("1.0.0")
                         .contact(new Contact()
-                                .name("Max Neo")
+                                .name("JobIn")
                                 .email("max.neo.dev@gmail.com")
                                 .url("tel:+91 9789681510"))
                         .license(new License()

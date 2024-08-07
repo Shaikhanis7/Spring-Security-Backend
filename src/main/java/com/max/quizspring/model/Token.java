@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "qz_token")
+@Table(name = "token")
 public class Token {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

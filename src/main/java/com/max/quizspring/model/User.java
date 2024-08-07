@@ -22,10 +22,10 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "qz_user")
+@Entity
+@Table(name = "user")
 public class User implements UserDetails {
 
     @Id
@@ -34,9 +34,7 @@ public class User implements UserDetails {
     private String name;
     private String email;
     private String password;
-    private String phone;
-    private String address;
-
+    
     @Enumerated(EnumType.STRING)
     private Role role;
 
@@ -54,7 +52,6 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        // NOTE : return username, if you are using username for login instead of email
         return email;
     }
 
