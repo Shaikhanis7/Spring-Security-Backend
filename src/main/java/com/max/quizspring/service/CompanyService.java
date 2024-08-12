@@ -52,9 +52,11 @@ public class CompanyService {
     }
 
     private CompanyResponseDto mapToDto(Company company) {
-        CompanyResponseDto dto = new CompanyResponseDto();
-        dto.setId(company.getId());
-        dto.setName(company.getName());
-        return dto;
-    }
+    CompanyResponseDto dto = new CompanyResponseDto();
+    dto.setId(company.getId());
+    dto.setName(company.getName());
+    dto.setContactEmail(company.getContactEmail());  // Added
+    dto.setContactPhone(company.getContactPhone());  // Added
+    return dto;
+}
 }

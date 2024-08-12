@@ -7,5 +7,8 @@ public class JobResponseDto {
     private Long id;
     private String title;
     private String description;
-    private Long companyId; // The ID of the company associated with the job
+    private String location;  // Job location
+    private Double salary;    // Job salary
+    private String jobType;   // New attribute for job type
+    private Long companyId;   // The ID of the company associated with the job
 }

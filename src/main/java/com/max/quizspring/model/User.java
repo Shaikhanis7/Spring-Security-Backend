@@ -7,6 +7,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -34,6 +36,8 @@ public class User implements UserDetails {
     private String name;
     private String email;
     private String password;
+    private String phone;
+    private String address;
     
     @Enumerated(EnumType.STRING)
     private Role role;
@@ -42,6 +46,7 @@ public class User implements UserDetails {
         STUDENT, ADMIN, INSTRUCTOR
     }
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user")
     private List<Token> tokens;
 

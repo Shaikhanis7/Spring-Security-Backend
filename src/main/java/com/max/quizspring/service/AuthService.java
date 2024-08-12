@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -17,14 +16,11 @@ import com.max.quizspring.model.Token;
 import com.max.quizspring.model.User;
 import com.max.quizspring.repo.JwtRepo;
 import com.max.quizspring.repo.UserRepo;
-import com.max.quizspring.service.AuthService;
 
 import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-@SuppressWarnings("null")
-
 public class AuthService {
 
     private final UserRepo userRepository;
@@ -42,13 +38,15 @@ public class AuthService {
                 .name(registerRequest.getName())
                 .email(registerRequest.getEmail())
                 .password(passwordEncoder.encode(registerRequest.getPassword()))
+                .phone(registerRequest.getPhone())
+                .address(registerRequest.getAddress())
                 .role(User.Role.STUDENT)
                 .build();
         userRepository.save(user);
         return "User registered successfully.";
     }
 
-    public String login(LoginRequest loginRequest) {
+    public Map<String, String> login(LoginRequest loginRequest) {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()));
         var user = userRepository.findByEmail(loginRequest.getEmail()).orElseThrow();
@@ -57,7 +55,11 @@ public class AuthService {
         var accessToken = jwtUtil.generateToken(extraClaims, user);
         revokeAllUserTokens(user);
         saveUserToken(user, accessToken);
-        return accessToken;
+
+        // Return token in a structured JSON format
+        Map<String, String> response = new HashMap<>();
+        response.put("accessToken", accessToken);
+        return response;
     }
 
     private void saveUserToken(User user, String accessToken) {
@@ -67,8 +69,7 @@ public class AuthService {
 
     private void revokeAllUserTokens(User user) {
         var validUserTokens = tokenRepository.findAllByUser_UidAndExpiredFalseAndRevokedFalse(user.getUid());
-        if (validUserTokens.isEmpty())
-            return;
+        if (validUserTokens.isEmpty()) return;
         validUserTokens.forEach(token -> {
             token.setExpired(true);
             token.setRevoked(true);
@@ -86,6 +87,8 @@ public class AuthService {
                 .name("Admin")
                 .email("admin@gmail.com")
                 .password(passwordEncoder.encode("Admin@123"))
+                .phone("1234567890")
+                .address("xyz")
                 .role(User.Role.ADMIN)
                 .build();
         userRepository.save(user);

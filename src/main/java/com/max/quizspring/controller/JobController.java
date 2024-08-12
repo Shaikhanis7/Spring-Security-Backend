@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/jobs")
+@RequestMapping("api/user/jobs")
 public class JobController {
 
     @Autowired
@@ -45,5 +45,11 @@ public class JobController {
     public ResponseEntity<Void> deleteJob(@PathVariable Long id) {
         jobService.deleteJob(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @GetMapping("/company/{companyId}")
+    public ResponseEntity<List<JobResponseDto>> getJobsByCompanyId(@PathVariable Long companyId) {
+        List<JobResponseDto> jobs = jobService.getJobsByCompanyId(companyId);
+        return new ResponseEntity<>(jobs, HttpStatus.OK);
     }
 }

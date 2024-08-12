@@ -45,6 +45,10 @@ public class ApplicationService {
         application.setStatus(applicationRequestDto.getStatus());
         application.setJob(job.get());
         application.setUser(getCurrentUser()); // Set the current user
+        application.setCoverLetter(applicationRequestDto.getCoverLetter());
+        application.setResumeLink(applicationRequestDto.getResumeLink());
+        application.setApplicationDate(applicationRequestDto.getApplicationDate());
+        application.setInterviewDate(applicationRequestDto.getInterviewDate());
 
         Application savedApplication = applicationRepository.save(application);
         return mapToDto(savedApplication);
@@ -75,6 +79,10 @@ public class ApplicationService {
         application.setStatus(applicationRequestDto.getStatus());
         application.setJob(job.get());
         application.setUser(getCurrentUser()); // Set the current user
+        application.setCoverLetter(applicationRequestDto.getCoverLetter());
+        application.setResumeLink(applicationRequestDto.getResumeLink());
+        application.setApplicationDate(applicationRequestDto.getApplicationDate());
+        application.setInterviewDate(applicationRequestDto.getInterviewDate());
 
         Application updatedApplication = applicationRepository.save(application);
         return mapToDto(updatedApplication);
@@ -91,6 +99,10 @@ public class ApplicationService {
         dto.setId(application.getId());
         dto.setStatus(application.getStatus());
         dto.setJobId(application.getJob().getId());
+        dto.setCoverLetter(application.getCoverLetter());
+        dto.setResumeLink(application.getResumeLink());
+        dto.setApplicationDate(application.getApplicationDate());
+        dto.setInterviewDate(application.getInterviewDate());
         return dto;
     }
 }

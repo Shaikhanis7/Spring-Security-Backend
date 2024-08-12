@@ -31,6 +31,9 @@ public class JobService {
         Job job = new Job();
         job.setTitle(jobRequestDto.getTitle());
         job.setDescription(jobRequestDto.getDescription());
+        job.setLocation(jobRequestDto.getLocation());
+        job.setSalary(jobRequestDto.getSalary());
+        job.setJobType(jobRequestDto.getJobType());
         job.setCompany(company.get());
 
         Job savedJob = jobRepository.save(job);
@@ -60,6 +63,9 @@ public class JobService {
 
         job.setTitle(jobRequestDto.getTitle());
         job.setDescription(jobRequestDto.getDescription());
+        job.setLocation(jobRequestDto.getLocation());
+        job.setSalary(jobRequestDto.getSalary());
+        job.setJobType(jobRequestDto.getJobType());
         job.setCompany(company.get());
 
         Job updatedJob = jobRepository.save(job);
@@ -72,12 +78,22 @@ public class JobService {
         jobRepository.delete(job);
     }
 
+    public List<JobResponseDto> getJobsByCompanyId(Long companyId) {
+        List<Job> jobs = jobRepository.findByCompanyId(companyId);
+        return jobs.stream()
+                .map(this::mapToDto)
+                .collect(Collectors.toList());
+    }
+
     private JobResponseDto mapToDto(Job job) {
         JobResponseDto dto = new JobResponseDto();
         dto.setId(job.getId());
         dto.setTitle(job.getTitle());
         dto.setDescription(job.getDescription());
-        dto.setCompanyId(job.getCompany().getId()); // Include company ID in response
+        dto.setLocation(job.getLocation());
+        dto.setSalary(job.getSalary());
+        dto.setJobType(job.getJobType());
+        dto.setCompanyId(job.getCompany().getId());
         return dto;
     }
 }

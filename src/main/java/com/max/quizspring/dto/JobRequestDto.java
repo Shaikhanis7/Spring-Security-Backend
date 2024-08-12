@@ -6,5 +6,8 @@ import lombok.Data;
 public class JobRequestDto {
     private String title;
     private String description;
-    private Long companyId; // The ID of the company to which the job belongs
+    private String location;  // Job location
+    private Double salary;    // Job salary
+    private String jobType;   // New attribute for job type
+    private Long companyId; 
 }
