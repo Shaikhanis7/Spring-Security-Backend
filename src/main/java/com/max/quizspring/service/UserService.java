@@ -1,30 +1,44 @@
 package com.max.quizspring.service;
 
+import com.max.quizspring.model.User;
+import com.max.quizspring.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.max.quizspring.model.User;
-import com.max.quizspring.repo.UserRepo;
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService {
 
-    private final UserRepo userRepository;
-
     @Autowired
-    public UserService(UserRepo userRepository) {
-        this.userRepository = userRepository;
+    private UserRepo userRepository;
+
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
     }
 
-    /**
-     * Retrieve a user by their email.
-     * 
-     * @param email the email of the user to retrieve
-     * @return the User object if found, or null if not found
-     */
-    public User getUserByEmail(String email) {
-        return userRepository.findByEmail(email).orElse(null);
+    public User createUser(User user) {
+        return userRepository.save(user);
     }
 
-    
+    public User updateUser(Long id, User user) {
+        if (userRepository.existsById(id)) {
+            user.setUid(id);
+            return userRepository.save(user);
+        }
+        return null;
+    }
+
+    public boolean deleteUser(Long id) {
+        if (userRepository.existsById(id)) {
+            userRepository.deleteById(id);
+            return true;
+        }
+        return false;
+    }
+
+    public Optional<User> getUserByEmail(String email) {
+        return userRepository.findByEmail(email);
+    }
 }
